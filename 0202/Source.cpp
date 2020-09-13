@@ -10,13 +10,12 @@ int main() {
                 printf("  ");
             }
 
-            for (n=65; k != 2 * i - 1;n++) {
+            for (n = 65; k != 2 * i - 1; n++) {
 
-                printf("%c ", n);
-            
                 if (n > 90) {
                     n = 65;
                 }
+                printf("%c ", n);
                 ++k;
             }
             printf("\n");
